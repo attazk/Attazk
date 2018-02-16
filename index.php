@@ -3,7 +3,7 @@
 $strAccessToken = "xdXHxzbKD7wjbiQN4HCZEOtQTjUxqSscUU83II4hShlbKB2f5AcpgXL3vS7s3rG/F0fuxIpoDeY6zFkLbAv1YIXFtIKPi69ZYvc8Fy5kPUYmKfMiP0xTxLaDOlpPkdlsBImYLiB0X/ulcyfp4f5gFQdB04t89/1O/w1cDnyilFU=
 ";
  
-$content = file_get_contents('php://input');
+$content = file_get_contents('https://fathomless-savannah-51478.herokuapp.com/');
 $arrJson = json_decode($content, true);
  
 $strUrl = "https://api.line.me/v2/bot/message/reply";
