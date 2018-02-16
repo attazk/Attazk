@@ -22,6 +22,27 @@ if (!is_null($events['events'])) {
 				'text' => $text
 			];
 
+			{
+	"events" : [
+		{
+			"type" : "message",
+			"replyToken" : "10cf9184......77b644a",
+			"source" : {
+				"userId" : "U39f72cc......028ba7f",
+				"type" : "user"
+			},
+			"timestamp" : 1486930283681,
+			"message": {
+				"type" : "sticker",
+				"id" : "5638..08546..1",
+				"stickerId" : "2.5.99",
+				"packageId" : "10..176"
+			}
+		}
+	]
+}
+			
+			
 			// Make a POST Request to Messaging API to reply to sender
 			$url = 'https://api.line.me/v2/bot/message/reply';
 			$data = [
