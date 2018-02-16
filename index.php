@@ -2,7 +2,7 @@
 $access_token = 'xdXHxzbKD7wjbiQN4HCZEOtQTjUxqSscUU83II4hShlbKB2f5AcpgXL3vS7s3rG/F0fuxIpoDeY6zFkLbAv1YIXFtIKPi69ZYvc8Fy5kPUYmKfMiP0xTxLaDOlpPkdlsBImYLiB0X/ulcyfp4f5gFQdB04t89/1O/w1cDnyilFU=
 ';
 
-$url = 'https://api.line.me/v2/bot/verify';
+$url = ' https://api.line.me/v2/bot/message/reply';
 
 $headers = array('Authorization: Bearer ' . $access_token);
 
